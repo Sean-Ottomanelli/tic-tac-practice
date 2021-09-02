@@ -1,0 +1,30 @@
+
+.content {
+    display:flex;
+    justify-content: center;
+}
+
+.board {
+    display:flex;
+    flex-wrap: wrap;
+    width: 320px;
+    justify-content: center;
+}
+
+.square {
+    width:90px;
+    height:90px;
+    margin:5px;
+}
+
+.blue {
+    background-color:lightblue;
+}
+
+.red {
+    background-color:lightcoral;
+}
+
+.green {
+    background-color: lightgreen;
+}
