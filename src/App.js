@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import Box from './Components/Box';
+import Counter from './Components/Counter';
 import './App.css';
 
 class App extends Component{
@@ -114,6 +114,9 @@ class App extends Component{
             // determineWinner = {this.determineWinner}
             winner = {this.state.winner}/>)}
           </div>
+        </div>
+        <div>
+          <Counter/>
         </div>
       </div>
     );
